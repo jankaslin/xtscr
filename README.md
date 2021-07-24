@@ -47,7 +47,8 @@ Usage
 
 You will need to do 2 things before running the extension:
 
-    Run spot detection and tracking for cells in the nerve cord around the lesion site. Be sure to restrict the ROI of the spot detection to the nerve cord i.e., don't detect or track cells outside the nerve cord. You may need to manually remove cells outside the nerve cord.
-    Place 2 measurement points (mp; in the same measurement points object in Imaris). The first mp needs to be placed in approximately the centre of the lesion in the nerve cord. The second mp needs to be placed in the centre of the notochord, approximately perpendicular to the nerve cord/1st mp. This is used as a reference point for the of cell movement angle.
+    1. Run spot detection and tracking for cells in the nerve cord around the lesion site. Be sure to restrict the ROI of the spot detection to the nerve cord i.e., don't detect or track cells outside the nerve cord. You may need to manually remove cells outside the nerve cord.
+    
+    2.Place 2 measurement points (mp; in the same measurement points object in Imaris). The first mp needs to be placed in approximately the centre of the lesion in the nerve cord. The second mp needs to be placed in the centre of the notochord, approximately perpendicular to the nerve cord/1st mp. This is used as a reference point for the of cell movement angle.
 
 The extension can then be run by invoking the Image Processing -> SCR menuitem.
